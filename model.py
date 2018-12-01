@@ -14,7 +14,7 @@ from keras.layers import Activation, Dropout, Input, Flatten, Dense, Lambda, Con
 X_train = []
 y_train = []
 
-with open('data/driving_log.csv') as csvfile:
+with open('/opt/Data/driving_log.csv') as csvfile:
     reader = csv.reader(csvfile)
     for ix, row in enumerate(reader):
         if ix == 0:
@@ -24,7 +24,7 @@ with open('data/driving_log.csv') as csvfile:
         measurement_2 = measurement_1+0.2
         measurement_3 = measurement_1-0.2
 
-        center_image = 'data'+row[0].strip()
+        center_image = '/opt/'+row[0].strip()
         left_image = 'data'+row[1].strip()
         right_image = 'data'+row[2].strip()
 

@@ -10,6 +10,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./pictures/cnn-architecture-624x890.png "Model Architecture"
+[image2]: ./pictures/prev.gif "Video Preview"
 
 ---
 #### My project includes the following files

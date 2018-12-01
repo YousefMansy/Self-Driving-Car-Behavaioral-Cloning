@@ -1,16 +1,17 @@
+[//]: # (Image References)
+
+[image1]: ./pictures/cnn-architecture-624x890.png "Model Architecture"
+[image2]: ./pictures/prev.gif "Video Preview"
+
 # **Steering Angle Prediction using Behavioral Cloning for Self-Driving Cars** 
+
+![alt text][image2]
 
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
 * Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
 * Test that the model successfully drives around track one without leaving the road
-
-
-[//]: # (Image References)
-
-[image1]: ./pictures/cnn-architecture-624x890.png "Model Architecture"
-[image2]: ./pictures/prev.gif "Video Preview"
 
 ---
 #### My project includes the following files

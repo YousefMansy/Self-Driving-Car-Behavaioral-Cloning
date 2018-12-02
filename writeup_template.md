@@ -2,6 +2,9 @@
 
 [image1]: ./pictures/cnn-architecture-624x890.png "Model Architecture"
 [image2]: ./pictures/prev.gif "Video Preview"
+[image3]: ./pictures/center_2018_11_24_19_18_06_202.jpg.gif "Sample 1"
+[image4]: ./pictures/left_2018_11_24_19_18_06_202.jpg.gif "Sample 2"
+[image5]: ./pictures/right_2018_11_24_19_18_06_202.jpg.gif "Sample 3"
 
 # **Steering Angle Prediction using Behavioral Cloning for Self-Driving Cars** 
 
@@ -55,6 +58,10 @@ I've collected and used my own data for the project, which consists of the follo
 - Extra focus on the parts of the track that has different looking borders or terrain.
 
 The data includes for each steering angle a front-facing photo, a left-facing photo, and a right-facing photo.
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
+
 
 ### Model Architecture and Training Strategy
 
